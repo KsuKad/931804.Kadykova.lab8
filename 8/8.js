@@ -1,7 +1,7 @@
 var a = document.querySelector(".interface").cloneNode(true);
 const add = () => {
  var g = a.cloneNode(true);
-    b = document.querySelector("#extra");
+    b = document.querySelector("#main");
     b.appendChild(g);
     g.querySelector('#input1').value="";
     g.querySelector('#input2').value="";
